@@ -1,0 +1,105 @@
+@keyframes {
+  
+}
+
+body {
+  background: linear-gradient(blue, purple);
+  height: 720px;
+}
+
+#search {
+  text-align: center;
+  box-shadow: 0 5px 10px;
+  font-family: Arial;
+  align-items: center;
+  height: 50px;
+  width: 300px;
+  justify-content: center;
+  transform: translateX(30px);
+}
+
+#title {
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial;
+  color: white;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 8px;
+}
+
+#button1 {
+  background-color: green;
+  color: white;
+  transform: translateX(30px);
+}
+
+#button2 {
+  background-color: blue;
+  color: white;
+  transform: translateX(90px);
+}
+
+#button3 {
+  background-color: red;
+  color: white;
+  transform: translateX(140px);
+}
+
+#index {
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  margin-left: 0px;
+}
+
+#t {
+  color: white;
+  font-family: Arial;
+  margin-left: 160px;
+}
+
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+#loader {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid white;
+  border-top: 5px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 15px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#mondura {
+  text-align: center;
+  border-radius: 25px;
+  width: 200px;
+  height: 200px;
+}
